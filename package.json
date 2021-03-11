@@ -1,0 +1,25 @@
+{
+  "name": "hatchway-blog-posts",
+  "version": "1.0.0",
+  "description": "Backend Assessment - Blog Posts ",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon app.js"
+  },
+  "keywords": [
+    "hatchways",
+    "blog",
+    "posts"
+  ],
+  "author": "Azad Sadigli",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "buffer": "^6.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.7",
+    "redis": "^3.0.2"
+  }
+}
